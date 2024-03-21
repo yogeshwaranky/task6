@@ -1,13 +1,10 @@
-class Person {
-    constructor(firstName, lastName, age, country, city) {
-      this.firstName = firstName
-      this.lastName = lastName
-      this.age = age
-      this.country = country
-      this.city = city
-    }
+
+class person {
+  teacher() {
+    console.log("Take classes for students");
   }
-  
-  const person1 = new Person('yogesh', 'k', 25, 'india', 'chennai')
-  
-  console.log(person1)
+}
+
+const principal = new person();
+
+principal.teacher();
